@@ -1,0 +1,187 @@
+{
+  "id": "dualitys-denizens-v15",
+  "title": "🐉🔮Duality's Denizens🔮🐉",
+  "version": "1.5.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14",
+    "maximum": "15"
+  },
+  "description": "<p>Модуль, в котором собраны неигровые персонажи для системы Daggerheart (Foundryborne).</p>",
+  "authors": [
+    {
+      "name": "NIKTOken",
+      "url": "https://boosty.to/niktoart",
+      "flags": {}
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/HlKTO/dualitys-denizens-1.5/master/module.json",
+  "download": "https://github.com/HlKTO/dualitys-denizens-1.5/releases/download/v1.5/dualitys-denizens-v15.zip",
+  "flags": {
+    "canUpload": true
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "packFolders": [
+    {
+      "name": "🐉 NIKTO | DD's Compendium 🔮",
+      "sorting": "a",
+      "color": "#9400d3",
+      "folders": [
+        {
+          "name": "Противники и Окружение",
+          "sorting": "a",
+          "color": "#7000a0",
+          "packs": [
+            "DH-alladv",
+            "DH-env",
+            "DH-dnd-conversions"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Опции персонажа",
+          "sorting": "a",
+          "color": "#2c3e50",
+          "folders": [
+            {
+              "name": "Void Content | RU",
+              "sorting": "a",
+              "color": "#4b0082",
+              "packs": [
+                "DH-void-communities",
+                "DH-void-ancestries",
+                "DH-void-classes",
+                "DH-void-domains",
+                "DH-void-subclasses"
+              ],
+              "folders": []
+            }
+          ],
+          "packs": []
+        }
+      ],
+      "packs": []
+    }
+  ],
+  "packs": [
+    {
+      "name": "DH-alladv",
+      "label": "DH Adversaries | RU",
+      "path": "packs/DH-adv",
+      "type": "Actor",
+      "system": "daggerheart",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "DH-env",
+      "label": "DH Environments | RU",
+      "path": "packs/DH-env",
+      "type": "Actor",
+      "system": "daggerheart",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "DH-dnd-conversions",
+      "label": "DnD 5e | Конверсии",
+      "path": "packs/DH-dnd-conversions",
+      "type": "Actor",
+      "system": "daggerheart",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "DH-void-communities",
+      "label": "Сообщества",
+      "path": "packs/DH-void-communities",
+      "type": "Item",
+      "system": "daggerheart",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "DH-void-ancestries",
+      "label": "Происхождения",
+      "path": "packs/DH-void-ancestries",
+      "type": "Item",
+      "system": "daggerheart",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "DH-void-classes",
+      "label": "Классы",
+      "path": "packs/DH-void-classes",
+      "type": "Item",
+      "system": "daggerheart",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "DH-void-domains",
+      "label": "Домены",
+      "path": "packs/DH-void-domains",
+      "type": "Item",
+      "system": "daggerheart",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "DH-void-subclasses",
+      "label": "Подклассы",
+      "path": "packs/DH-void-subclasses",
+      "type": "Item",
+      "system": "daggerheart",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "daggerheart",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "daggerheart-plus",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "daggerheart-ru",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  }
+}
